@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  jupyterlab:
+    image: jupyter/base-notebook:latest
+    container_name: jupyterlab_pi
+    ports:
+      - "80:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    environment:
+      # This command sets the password to '1234'
+      - JUPYTER_TOKEN=1234
+    restart: always
