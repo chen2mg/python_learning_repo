@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which data type in Python is used for text, messages, or words, and must always be put inside quotation marks \" \"?",
+    "options": {
+      "A": "Integer (int)",
+      "B": "String (str)",
+      "C": "Float",
+      "D": "Math"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What kind of number is a Float in Python?",
+    "options": {
+      "A": "A whole number used for counting (like 5 or 100)",
+      "B": "A secret code word",
+      "C": "A text message inside quotes",
+      "D": "A decimal number used for precise math (like 3.14 or 200.5)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Which mathematical symbol does Python use to multiply two numbers together?",
+    "options": {
+      "A": "x",
+      "B": "+",
+      "C": "*",
+      "D": "/"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Look at this line of code: value = 25. What data type is the number 25?",
+    "options": {
+      "A": "Integer (int)",
+      "B": "String (str)",
+      "C": "Float",
+      "D": "Text"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "If you run the following code, what will the print command display on the screen?\n\na = 10\nb = 2\nc = a / b\nprint(c)",
+    "options": {
+      "A": "12",
+      "B": "5.0",
+      "C": "20",
+      "D": "8"
+    },
+    "answer": "B"
+  }
+]

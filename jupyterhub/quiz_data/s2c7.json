@@ -1,0 +1,52 @@
+[
+  {
+    "question": "If you have a list with 5 items in it and you use a 'for' loop to look at each one, how many times will the code inside the loop run?",
+    "options": {
+      "A": "1 time",
+      "B": "5 times",
+      "C": "10 times",
+      "D": "It will run forever"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Look at this code snippet:\n\nmoves = [\"Forward\", \"Left\", \"Stop\"]\nfor action in moves:\n    print(action)\n\nWhat does the variable 'action' represent inside this loop?",
+    "options": {
+      "A": "The total number of items in the list",
+      "B": "A random item chosen from the computer's memory",
+      "C": "The current item from the list that the loop is looking at during that step",
+      "D": "The word 'moves' written backwards"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Look at this code:\n\npath = [\"Forward\", \"Forward\", \"Stop\"]\nfor move in path:\n    if move == \"Forward\":\n        print(\"Drive!\")\n    elif move == \"Stop\":\n        print(\"Park!\")\n\nHow many times will the word 'Drive!' print on the screen?",
+    "options": {
+      "A": "1 time",
+      "B": "2 times",
+      "C": "3 times",
+      "D": "0 times"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What does the Python command 'path.reverse()' do to a list named 'path'?",
+    "options": {
+      "A": "It deletes all the items in the list",
+      "B": "It flips the order of the items so the last item becomes the first item",
+      "C": "It changes all the words to capital letters",
+      "D": "It hides the list so the robot cannot read it"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following lines correctly starts a loop that reads every item inside a list named 'backpack'?",
+    "options": {
+      "A": "while backpack == True:",
+      "B": "if item in backpack:",
+      "C": "for item in backpack:",
+      "D": "make item loop backpack"
+    },
+    "answer": "C"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which of the following lines correctly builds a function to group code together under a single name?",
+    "options": {
+      "A": "function test()",
+      "B": "def test():",
+      "C": "make test()",
+      "D": "create test"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "If you want a loop to repeat an action exactly 3 times, which command should you use with your for loop?",
+    "options": {
+      "A": "range(3)",
+      "B": "count(3)",
+      "C": "times(3)",
+      "D": "repeat(3)"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Look at this part of an if statement: if score > 20:. Under what condition will the code inside this block run?",
+    "options": {
+      "A": "When score is exactly 20",
+      "B": "When score is less than 20",
+      "C": "When score is greater than 20",
+      "D": "When score is equal to 0"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the correct way to trigger (call) a function named score_points in your main program?",
+    "options": {
+      "A": "run score_points",
+      "B": "score_points()",
+      "C": "call score_points()",
+      "D": "def score_points()"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Look at this complete code setup:\n\nbattery = 15\nif battery > 20:\n    print(\"Action A\")\nelse:\n    print(\"Action B\")\n\nWhat text message will be displayed on the screen?",
+    "options": {
+      "A": "Action A",
+      "B": "Action B",
+      "C": "15",
+      "D": "Nothing will print"
+    },
+    "answer": "B"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is a function 'parameter' in Python?",
+    "options": {
+      "A": "A special tool used to delete a broken function",
+      "B": "An input value or option passed into a function to change how it behaves",
+      "C": "The closing line at the very bottom of a loop",
+      "D": "A variable that can only store negative numbers"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Look at this function definition:\n\ndef say_hello(name):\n    print(\"Hello\", name)\n\nWhat do you need to type to call this function and pass the name 'Wall-E' into it?",
+    "options": {
+      "A": "say_hello = \"Wall-E\"",
+      "B": "print(say_hello, \"Wall-E\")",
+      "C": "say_hello(\"Wall-E\")",
+      "D": "def say_hello(\"Wall-E\"):"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Look at this function header:\n\ndef drive(speed, distance):\n\nHow many parameters does this function accept?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Look at this code:\n\ndef drive(speed, distance):\n    print(\"Speed:\", speed)\n\ndrive(50, 100)\n\nWhat number will be assigned to the 'speed' variable when the function runs?",
+    "options": {
+      "A": "100",
+      "B": "50",
+      "C": "150",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Why do programmers add parameters to functions instead of creating multiple different functions?",
+    "options": {
+      "A": "Because it makes one function universal and reusable for many different situations",
+      "B": "Because functions with parameters run automatically without being called",
+      "C": "Because parameters protect the code from infinite loops",
+      "D": "Because Python doesn't allow you to write more than three functions"
+    },
+    "answer": "A"
+  }
+]

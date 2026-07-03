@@ -1,0 +1,52 @@
+[
+  {
+    "question": "When you write the code 'for i in range(5):', what numbers will the variable 'i' hold, in order?",
+    "options": {
+      "A": "1, 2, 3, 4, 5",
+      "B": "0, 1, 2, 3, 4",
+      "C": "5, 4, 3, 2, 1",
+      "D": "0, 5, 10, 15, 20"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is 'ramping' in computer programming and robotics?",
+    "options": {
+      "A": "Making a robot drive up a physical wooden ramp",
+      "B": "Gradually changing a value like speed using a loop variable so the robot moves smoothly",
+      "C": "Stopping a program instantly using a secret emergency command",
+      "D": "Multiplying two numbers together to see which one is larger"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Look at this code snippet:\n\nfor i in range(4):\n    speed = i * 10\n    print(speed)\n\nWhat is the maximum speed value that will be printed?",
+    "options": {
+      "A": "40",
+      "B": "30",
+      "C": "4",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "If you see the Python code 'range(100, 0, -10)', what does the third number (-10) tell the computer to do?",
+    "options": {
+      "A": "Multiply the number by negative 10",
+      "B": "Stop the code if the speed drops below negative 10",
+      "C": "Count down by subtracting 10 during every step of the loop",
+      "D": "Repeat the loop exactly 10 extra times"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following loops will count backwards from 5 down to 1?",
+    "options": {
+      "A": "for i in range(5):",
+      "B": "for i in range(1, 5, 1):",
+      "C": "for i in range(5, 0, -1):",
+      "D": "while True:"
+    },
+    "answer": "C"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which Python keyword is used to send an answer or result back from a function to the main program?",
+    "options": {
+      "A": "send",
+      "B": "return",
+      "C": "give",
+      "D": "reply"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Look at this function definition:\n\ndef double_number(number):\n    return number * 2\n\nIf you run 'result = double_number(5)', what value will be stored in the 'result' variable?",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "10",
+      "D": "0"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the main difference between using 'print()' and 'return' inside a function?",
+    "options": {
+      "A": "print() sends text to the screen, while return passes data back to your code so you can save it or use it in math",
+      "B": "return turns the robot's motors off immediately",
+      "C": "print() can only be used with numbers, while return works only with text",
+      "D": "There is no difference; they do the exact same thing"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Look at this code:\n\ndef check_battery(volts):\n    if volts > 12:\n        return True\n    else:\n        return False\n\nstatus = check_battery(10)\nprint(status)\n\nWhat will print on the screen?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "volts",
+      "D": "12"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What happens to a function execution the exact moment a 'return' statement runs?",
+    "options": {
+      "A": "The function exits immediately, skipping any remaining code inside it",
+      "B": "The function pauses for 1 second",
+      "C": "The function loops back to the very first line and restarts",
+      "D": "The computer deletes the function to save memory"
+    },
+    "answer": "A"
+  }
+]

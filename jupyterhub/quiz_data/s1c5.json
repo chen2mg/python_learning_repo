@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which type of brackets do you use to create a List in Python?",
+    "options": {
+      "A": "Curly brackets { }",
+      "B": "Round brackets ( )",
+      "C": "Square brackets [ ]",
+      "D": "Angle brackets < >"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "When Python counts items inside a list, what number does it always start counting from?",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "-1",
+      "D": "Any number you want"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Look at this Python list: animals = [\"Cat\", \"Dog\", \"Bird\"]. Which code will grab the very first item (\"Cat\")?",
+    "options": {
+      "A": "animals[0]",
+      "B": "animals[1]",
+      "C": "animals[first]",
+      "D": "animals[one]"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "If we have the list items = [\"Apple\", \"Banana\", \"Cherry\"], what will print(items[1]) display on the screen?",
+    "options": {
+      "A": "Apple",
+      "B": "Banana",
+      "C": "Cherry",
+      "D": "An error message"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What Python function can you use to count how many total items are inside a list?",
+    "options": {
+      "A": "count()",
+      "B": "size()",
+      "C": "len()",
+      "D": "total()"
+    },
+    "answer": "C"
+  }
+]

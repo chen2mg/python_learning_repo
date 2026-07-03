@@ -1,0 +1,52 @@
+[
+  {
+    "question": "In Python programming, what is the best way to think about a 'class'?",
+    "options": {
+      "A": "A real robot that can move around",
+      "B": "A blueprint or template plan used to build things",
+      "C": "A list that only holds numbers",
+      "D": "An error message that stops your program"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What do we call a real, individual object that is built from a class blueprint?",
+    "options": {
+      "A": "An object (or instance)",
+      "B": "A parameter",
+      "C": "A function loop",
+      "D": "A variable type"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Look at this code snippet:\n\nclass Robot:\n    pass\n\nWhich line of code correctly builds a new object from this Robot class blueprint?",
+    "options": {
+      "A": "my_robot = Robot",
+      "B": "my_robot = Robot()",
+      "C": "class my_robot:",
+      "D": "my_robot = pass"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What does the Python keyword 'pass' mean when you use it inside a new class definition?",
+    "options": {
+      "A": "It means the code should move to the next file",
+      "B": "It acts as a placeholder that means 'nothing here yet' so the program doesn't crash",
+      "C": "It sends an answer back to the main program",
+      "D": "It prints a success message on the screen"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "If you define one class called 'DogRobot', how many robot objects can you create from that single blueprint?",
+    "options": {
+      "A": "Only 1 object",
+      "B": "Exactly 2 objects",
+      "C": "As many objects as you want",
+      "D": "Zero objects"
+    },
+    "answer": "C"
+  }
+]

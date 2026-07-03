@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What do we call the properties or things a robot object knows about itself in Python?",
+    "options": {
+      "A": "Loops",
+      "B": "Attributes (or Member Variables)",
+      "C": "Functions",
+      "D": "Blueprints"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What does the keyword 'self' stand for inside a Python class?",
+    "options": {
+      "A": "It means 'this specific robot object' so it can keep track of its own unique data",
+      "B": "It means the code should stop running and turn itself off",
+      "C": "It is a command used to print things to the screen",
+      "D": "It forces all robots to have the exact same name"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Inside a class definition, which special method block is used to set up or initialize a robot's attributes when it is first built?",
+    "options": {
+      "A": "def start(self):",
+      "B": "def __init__(self):",
+      "C": "def make_robot():",
+      "D": "def blueprint(self):"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Look at this code snippet:\n\nclass Robot:\n    def __init__(self, name):\n        self.name = name\n\nrobot1 = Robot(\"Huey\")\nrobot2 = Robot(\"Scorpion\")\n\nWhat will print if you type 'print(robot2.name)'?",
+    "options": {
+      "A": "Huey",
+      "B": "Scorpion",
+      "C": "name",
+      "D": "robot1"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "If you have a robot object named 'my_bot', how do you access or read its 'battery_level' attribute?",
+    "options": {
+      "A": "my_bot.battery_level",
+      "B": "battery_level(my_bot)",
+      "C": "my_bot -> battery_level",
+      "D": "get battery_level from my_bot"
+    },
+    "answer": "A"
+  }
+]

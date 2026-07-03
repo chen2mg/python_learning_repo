@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which Python keyword do you use when you want to define or create a new function?",
+    "options": {
+      "A": "create",
+      "B": "def",
+      "C": "function",
+      "D": "make"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What happens when you define a function but don't call it anywhere in your code?",
+    "options": {
+      "A": "The computer memorizes the steps, but it will not run them yet",
+      "B": "The computer runs the steps immediately",
+      "C": "The computer deletes the function automatically",
+      "D": "The program crashes with a major error"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "What is the main reason programmers use functions in Python?",
+    "options": {
+      "A": "To group a bunch of code together so you don't have to rewrite it over and over",
+      "B": "To make the computer screen change colors faster",
+      "C": "To automatically turn numbers into text messages",
+      "D": "To check if a condition is True or False only once"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Look at this code:\n\ndef say_hi():\n    print(\"Hello!\")\n\nWhat do you need to type next to actually run (or call) this function?",
+    "options": {
+      "A": "run say_hi",
+      "B": "say_hi",
+      "C": "say_hi()",
+      "D": "def say_hi()"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "If you define a function and call it three times in a row, how many times will the code inside that function run?",
+    "options": {
+      "A": "1 time",
+      "B": "2 times",
+      "C": "3 times",
+      "D": "0 times"
+    },
+    "answer": "C"
+  }
+]

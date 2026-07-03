@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is a 'method' in Python object-oriented programming?",
+    "options": {
+      "A": "A completely different coding language",
+      "B": "A function that is written inside a class and defines what an object can do",
+      "C": "A variable that can only save true or false values",
+      "D": "The initial name you give to your blueprint factory"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "If attributes represent what a robot *has*, what do methods represent?",
+    "options": {
+      "A": "What the robot *costs*",
+      "B": "What the robot *does* (its actions)",
+      "C": "Where the robot *goes*",
+      "D": "Who built the robot blueprint"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Look at this code snippet:\n\nclass Robot:\n    def drive_forward(self):\n        print(\"Moving!\")\n\nmy_bot = Robot()\n\nWhich line of code correctly commands 'my_bot' to execute its 'drive_forward' action?",
+    "options": {
+      "A": "drive_forward(my_bot)",
+      "B": "my_bot.drive_forward()",
+      "C": "my_bot -> drive_forward",
+      "D": "run my_bot.drive_forward"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Why do we include the word 'self' as the first parameter inside a method definition, like 'def drive_forward(self):'?",
+    "options": {
+      "A": "To tell Python to look for other files",
+      "B": "To allow the method to access and use the unique attributes of 'this specific robot'",
+      "C": "To force the method to repeat in an infinite loop",
+      "D": "To automatically clear the computer screen"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Look at this robot decision code:\n\ndistance = robot.detect_front_distance()\nif distance < 50:\n    print(\"Stop!\")\nelse:\n    robot.drive_forward()\n\nIf 'detect_front_distance()' returns the number 100, what action will the robot take?",
+    "options": {
+      "A": "It will print 'Stop!'",
+      "B": "It will drive forward",
+      "C": "It will crash with an error",
+      "D": "It will stand still and do nothing"
+    },
+    "answer": "B"
+  }
+]

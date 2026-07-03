@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which Python keyword do you use to check a condition and decide if a block of code should run?",
+    "options": {
+      "A": "when",
+      "B": "check",
+      "C": "if",
+      "D": "stop"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of the else statement in Python?",
+    "options": {
+      "A": "To run code as a backup plan when the 'if' condition is False",
+      "B": "To delete old code from your file",
+      "C": "To create a brand new variable",
+      "D": "To force the computer to shut down completely"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "In Python, how do you show that a line of code belongs inside an 'if' or 'else' block?",
+    "options": {
+      "A": "By wrapping the line inside extra parentheses ( )",
+      "B": "By putting a hashtag # at the start of the line",
+      "C": "By typing the word INSIDE before the code",
+      "D": "By indenting the line (adding spaces or pressing Tab)"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "If you run the following code, what will be printed on the screen?\n\nx = 12\nif x > 10:\n    print(\"High\")\nelse:\n    print(\"Low\")",
+    "options": {
+      "A": "High",
+      "B": "Low",
+      "C": "12",
+      "D": "Nothing will print"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Look at this code:\n\nraining = True\nif raining == False:\n    print(\"Go outside!\")\nelse:\n    print(\"Stay inside!\")\n\nWhat message will the computer display?",
+    "options": {
+      "A": "Go outside!",
+      "B": "Stay inside!",
+      "C": "True",
+      "D": "False"
+    },
+    "answer": "B"
+  }
+]

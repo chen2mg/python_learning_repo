@@ -1,14 +1,41 @@
-version: '3.8'
-
 services:
-  jupyterlab:
-    image: jupyter/base-notebook:latest
-    container_name: jupyterlab_pi
+  jupyterhub:
+    build: ./jupyterhub
+    container_name: jupyterhub
+    command: >
+      sh -c "python /srv/jupyterhub/bootstrap_users.py && exec jupyterhub -f /srv/jupyterhub/jupyterhub_config.py"
     ports:
-      - "80:8888"
+      - "80:8000"
     volumes:
-      - ./notebooks:/home/jovyan/work
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./app:/srv/app:ro
+      - ./jupyterhub/jupyterhub_config.py:/srv/jupyterhub/jupyterhub_config.py:ro
+      - ./jupyterhub/bootstrap_users.py:/srv/jupyterhub/bootstrap_users.py:ro
+      - ./jupyterhub/credentials:/srv/jupyterhub/credentials:ro
+      - ./jupyterhub/quiz_service.py:/srv/jupyterhub/quiz_service.py:ro
+      - ./jupyterhub/quiz_data:/srv/jupyterhub/quiz_data:ro
+      - ./jupyterhub/quiz_result:/srv/jupyterhub/quiz_result
+      - ./jupyterhub-data:/srv/jupyterhub/data
     environment:
-      # This command sets the password to '1234'
-      - JUPYTER_TOKEN=1234
+      - APP_HOST_DIR=${APP_HOST_DIR}
+      - APP_SCAN_DIR=/srv/app
+      - JUPYTERHUB_ADMIN_USERS=${JUPYTERHUB_ADMIN_USERS}
+      - JUPYTERHUB_ALLOWED_USERS=${JUPYTERHUB_ALLOWED_USERS}
+      - JUPYTERHUB_CREDENTIALS_FILE=/srv/jupyterhub/credentials/users.csv
+      - JUPYTERHUB_UPDATE_EXISTING_PASSWORDS=${JUPYTERHUB_UPDATE_EXISTING_PASSWORDS}
+    networks:
+      - jupyterhub_net
     restart: always
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    restart: always
+    depends_on:
+      - jupyterhub
+    command: tunnel run --token ${CLOUDFLARED_TOKEN}
+    networks:
+      - jupyterhub_net
+
+networks:
+  jupyterhub_net:
+    name: jupyterhub_net

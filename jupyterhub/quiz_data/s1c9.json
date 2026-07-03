@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which Python keyword do you use to bring a library or module into your code?",
+    "options": {
+      "A": "bring",
+      "B": "load",
+      "C": "import",
+      "D": "library"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is a library or module in Python?",
+    "options": {
+      "A": "A collection of pre-written tools and code built by other people that you can reuse",
+      "B": "A folder where Python stores old, deleted files",
+      "C": "A book that explains how computers work",
+      "D": "A tool used exclusively to print text on a screen"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which command from the random library would you use to pick a random whole number between 1 and 100?",
+    "options": {
+      "A": "random.choice(1, 100)",
+      "B": "random.randint(1, 100)",
+      "C": "random.number(1, 100)",
+      "D": "random.guess(1, 100)"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "If you have a Python list of items and want to pick one item completely at random, which command should you use?",
+    "options": {
+      "A": "random.randint()",
+      "B": "random.pick()",
+      "C": "random.choice()",
+      "D": "random.select()"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Look at this line of code: random.randint(1, 10). What is the highest possible number this command could generate?",
+    "options": {
+      "A": "1",
+      "B": "9",
+      "C": "11",
+      "D": "10"
+    },
+    "answer": "D"
+  }
+]

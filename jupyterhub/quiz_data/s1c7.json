@@ -1,0 +1,52 @@
+[
+  {
+    "question": "When does a while loop stop running in Python?",
+    "options": {
+      "A": "When it finishes counting to 10",
+      "B": "As soon as the condition becomes False",
+      "C": "Immediately after running exactly one time",
+      "D": "Only when the computer is turned off"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What happens if the condition of a while loop stays True forever and never changes?",
+    "options": {
+      "A": "The loop will run forever in an infinite loop",
+      "B": "The computer will delete the code automatically",
+      "C": "The loop will skip to the end of the file",
+      "D": "The program will crash instantly before starting"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Look at this code block:\n\ncount = 1\nwhile count < 4:\n    print(\"Looping\")\n    count = count + 1\n\nHow many times will the word \"Looping\" print on the screen?",
+    "options": {
+      "A": "1 time",
+      "B": "2 times",
+      "C": "3 times",
+      "D": "4 times"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the main difference between a 'for loop' and a 'while loop'?",
+    "options": {
+      "A": "A 'for loop' is only for text, and a 'while loop' is only for math",
+      "B": "A 'for loop' runs a set number of times, while a 'while loop' runs as long as a condition is true",
+      "C": "A 'for loop' cannot use variables inside it",
+      "D": "There is no difference; they work exactly the same way"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "If you run the following code, what message will print on the screen after the loop finishes?\n\nenergy = 20\nwhile energy > 0:\n    energy = energy - 10\nprint(\"Empty!\")",
+    "options": {
+      "A": "20",
+      "B": "10",
+      "C": "0",
+      "D": "Empty!"
+    },
+    "answer": "D"
+  }
+]

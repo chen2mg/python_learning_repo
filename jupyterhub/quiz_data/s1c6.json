@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which Python tool allows you to repeat a block of code multiple times without rewriting it?",
+    "options": {
+      "A": "An if statement",
+      "B": "A variable",
+      "C": "A for loop",
+      "D": "A print box"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What Python command do you pair with a 'for loop' to tell the computer exactly how many times to repeat the code?",
+    "options": {
+      "A": "range()",
+      "B": "count()",
+      "C": "times()",
+      "D": "repeat()"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Look at this loop: for i in range(5):. How many times will the code inside this loop run?",
+    "options": {
+      "A": "1 time",
+      "B": "0 times",
+      "C": "5 times",
+      "D": "4 times"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "If you run the following code, how many times will the word \"Hello\" appear on the screen?\n\nfor x in range(3):\n    print(\"Hello\")",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "In Python, when a loop variable like 'number' counts up inside range(3), what numbers does it actually count?",
+    "options": {
+      "A": "1, 2, 3",
+      "B": "0, 1, 2",
+      "C": "0, 1, 2, 3",
+      "D": "3, 2, 1"
+    },
+    "answer": "B"
+  }
+]

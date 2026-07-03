@@ -1,0 +1,52 @@
+[
+  {
+    "question": "When does the special '__init__' method run inside a Python class?",
+    "options": {
+      "A": "Only when the program encounters a broken line of code",
+      "B": "Automatically the exact moment a new object is created from the class",
+      "C": "At the very end of the program right before it turns off",
+      "D": "Only if you manually call it by typing '__init__()'"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Why is the '__init__' method the perfect place to put a 'calibrate()' function for a robot?",
+    "options": {
+      "A": "Because it makes sure the robot deletes all its old code first",
+      "B": "Because it forces the calibration to run automatically as part of the setup stage before the robot does anything else",
+      "C": "Because it speeds up the computer screen's colors",
+      "D": "Because it runs inside an infinite loop that never stops"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Look at this loop used during calibration:\n\nwhile not self.bumper.pressing():\n    self.BeamArm.spin(\"forward\")\n\nWhen will the robot arm STOP spinning forward?",
+    "options": {
+      "A": "As soon as the bumper sensor is pressed (pressing becomes True)",
+      "B": "After exactly 10 seconds have passed",
+      "C": "As soon as the robot starts driving backward",
+      "D": "It will never stop because it is an infinite loop"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Look at this code block:\n\nclass Robot:\n    def __init__(self):\n        self.calibrate()\n        \n    def calibrate(self):\n        print(\"Calibrating...\")\n\nWhat happens when you type the line 'my_bot = Robot()'?",
+    "options": {
+      "A": "Nothing happens until you type 'my_bot.calibrate()'",
+      "B": "The text 'Calibrating...' prints out automatically",
+      "C": "The program crashes with an error",
+      "D": "The computer creates a blueprint but doesn't build the robot"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the purpose of calibration in real-world robotics engineering?",
+    "options": {
+      "A": "To translate the code from Python into a different language",
+      "B": "To prepare the hardware by resetting sensors and homing motors so the robot behaves accurately and safely",
+      "C": "To choose a fun name and color for the robot team",
+      "D": "To check if the internet connection is fast enough"
+    },
+    "answer": "B"
+  }
+]

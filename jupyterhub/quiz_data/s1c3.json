@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What are the two values used in Boolean logic in Python?",
+    "options": {
+      "A": "Yes or No",
+      "B": "True or False",
+      "C": "Up or Down",
+      "D": "1 or 2"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which operator do you use in Python to check if two values are exactly equal to each other?",
+    "options": {
+      "A": "=",
+      "B": "==",
+      "C": "equals",
+      "D": "<=>"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What does the < operator mean in Python?",
+    "options": {
+      "A": "Is it greater than?",
+      "B": "Is it equal to?",
+      "C": "Is it less than?",
+      "D": "Is it changing?"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "If you run the following code, what will the print command show?\n\nx = 10\ny = 5\nresult = (x > y)\nprint(result)",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "10",
+      "D": "5"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Look at this code block:\n\nscore = 45\ncheck = (score == 50)\nprint(check)\n\nWhat will be displayed on the screen?",
+    "options": {
+      "A": "50",
+      "B": "45",
+      "C": "True",
+      "D": "False"
+    },
+    "answer": "D"
+  }
+]

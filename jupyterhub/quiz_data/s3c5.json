@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is an 'autonomous routine' in robotics programming?",
+    "options": {
+      "A": "A remote control mode where a human steers the robot using a joystick",
+      "B": "A list of pre-programmed steps a robot follows completely by itself without human help",
+      "C": "An error message that pops up when a motor gets disconnected",
+      "D": "A game mode where robots compete to see who can type Python faster"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Look at this autonomous routine method:\n\ndef perform_task_mix_and_match(self):\n    self.move_forward(50)\n    self.turn(90)\n    self.grab()\n\nIn what order will the robot execute these actions?",
+    "options": {
+      "A": "It will grab first, then turn, then move forward",
+      "B": "It will do all three actions at the exact same split second",
+      "C": "It will execute them one by one in order, from top to bottom",
+      "D": "It will pick a random step to do first"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Look at this method definition from the blueprint:\n\ndef turn(self, angle):\n    print(f\"Turning {angle} degrees\")\n\nIf you want your routine code to command the robot to turn 45 degrees, how should you call it?",
+    "options": {
+      "A": "turn = 45",
+      "B": "self.turn(45)",
+      "C": "Robot.turn = 45 degrees",
+      "D": "self.turn_angle(45)"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "If you are writing an autonomous routine inside a class method, why do you type 'self.' before calling other methods (like 'self.grab()')?",
+    "options": {
+      "A": "To inform the computer that the program is finished running",
+      "B": "To tell Python to run a method that belongs to *this specific robot object*",
+      "C": "To create a brand new infinite loop",
+      "D": "To delete the previous movement instruction"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the ultimate goal of combining classes, attributes, and methods together into an autonomous routine?",
+    "options": {
+      "A": "To make the python notebook change background colors",
+      "B": "To organize complex robot behaviors into structured, repeatable steps so the robot can complete full missions reliably",
+      "C": "To prevent the robot's battery level from dropping below 50 percent",
+      "D": "To hide your code secrets from other competition teams"
+    },
+    "answer": "B"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What does the Python keyword 'elif' stand for?",
+    "options": {
+      "A": "elephant",
+      "B": "else if",
+      "C": "extra if",
+      "D": "end if"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "When you have multiple choices or options in your code, which keyword do you use to check options between the 'if' and the 'else'?",
+    "options": {
+      "A": "elif",
+      "B": "then",
+      "C": "maybe",
+      "D": "loop"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "How does the computer read an if-elif-else chain?",
+    "options": {
+      "A": "It checks all of them at the exact same time",
+      "B": "It checks them from bottom to top",
+      "C": "It checks them one by one from top to bottom, and stops as soon as it finds a True one",
+      "D": "It picks a random one to check first"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Look at this code:\n\ncolor = \"Yellow\"\n\nif color == \"Red\":\n    print(\"Stop\")\nelif color == \"Yellow\":\n    print(\"Slow\")\nelif color == \"Green\":\n    print(\"Go\")\n\nWhat will print on the screen?",
+    "options": {
+      "A": "Stop",
+      "B": "Slow",
+      "C": "Go",
+      "D": "Nothing will print"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "In an if-elif-else block, what happens if *none* of the 'if' or 'elif' conditions match and are True?",
+    "options": {
+      "A": "The computer will crash with an error",
+      "B": "The code inside the 'else' section will run as a backup",
+      "C": "The computer will skip to a completely different file",
+      "D": "The computer will choose the first option anyway"
+    },
+    "answer": "B"
+  }
+]
