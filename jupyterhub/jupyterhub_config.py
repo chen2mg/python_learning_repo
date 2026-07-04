@@ -33,8 +33,20 @@ scan_root = Path(APP_SCAN_DIR)
 if scan_root.exists():
     _folder_users = {p.name.lower() for p in scan_root.iterdir() if p.is_dir()}
 
-c.Authenticator.allowed_users = _folder_users | EXTRA_ALLOWED_USERS | ADMIN_USERS
+ALL_ALLOWED_USERS = _folder_users | EXTRA_ALLOWED_USERS | ADMIN_USERS
+
+c.Authenticator.allowed_users = ALL_ALLOWED_USERS
 c.Authenticator.admin_users = ADMIN_USERS
+
+# Allow all authenticated users in this deployment to open the quiz service.
+c.JupyterHub.load_roles = [
+    {
+        "name": "quiz-access",
+        "description": "Allow users to access the quiz service UI",
+        "scopes": ["access:services!service=quiz"],
+        "users": sorted(ALL_ALLOWED_USERS),
+    }
+]
 
 # Disable self-signup. Accounts are provisioned by admin/bootstrap only.
 c.NativeAuthenticator.open_signup = False
