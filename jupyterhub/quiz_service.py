@@ -29,7 +29,7 @@ from tornado import ioloop, web
 # Config
 QUIZ_DATA_DIR   = pathlib.Path(os.environ.get("QUIZ_DATA_DIR",   "/srv/jupyterhub/quiz_data"))
 QUIZ_RESULT_DIR = pathlib.Path(os.environ.get("QUIZ_RESULT_DIR", "/srv/jupyterhub/quiz_result"))
-ADMIN_USER      = os.environ.get("QUIZ_ADMIN_USER", "eg2577")
+ADMIN_USERS     = {u.strip() for u in os.environ.get("QUIZ_ADMIN_USER", "eg2577").split(",") if u.strip()}
 PASS_THRESHOLD  = float(os.environ.get("QUIZ_PASS_THRESHOLD", "0.8"))
 
 # --------------------------------------------------------------------------
@@ -178,7 +178,7 @@ def _render_quiz_page(username, prefix, stage, chapter, questions):
     pfx = prefix.rstrip("/") + "/"
     admin_link = (
         '<a class="nav-link" href="{}results">&#128202; Results</a>'.format(pfx)
-        if username == ADMIN_USER else ""
+        if username in ADMIN_USERS else ""
     )
     return (
         _QUIZ_TEMPLATE
@@ -589,7 +589,7 @@ class DeleteAttemptHandler(HubOAuthenticated, web.RequestHandler):
     def post(self):
         user = self.get_current_user()
         username = user.get("name", "Unknown")
-        if username != ADMIN_USER:
+        if username not in ADMIN_USERS:
             self.set_status(403)
             self.set_header("Content-Type", "application/json")
             self.write({"error": "Admins only"})
@@ -636,7 +636,7 @@ class ResultsHandler(HubOAuthenticated, web.RequestHandler):
         user = self.get_current_user()
         username = user.get("name", "Unknown")
         prefix = os.environ.get("JUPYTERHUB_SERVICE_PREFIX", "/")
-        if username != ADMIN_USER:
+        if username not in ADMIN_USERS:
             self.set_status(403)
             self.set_header("Content-Type", "text/html; charset=utf-8")
             self.write("<h1 style='font-family:sans-serif;padding:2rem'>403 Forbidden</h1>"

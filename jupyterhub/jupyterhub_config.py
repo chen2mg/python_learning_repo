@@ -105,7 +105,7 @@ c.JupyterHub.services = [
         "environment": {
             "QUIZ_DATA_DIR":    "/srv/jupyterhub/quiz_data",
             "QUIZ_RESULT_DIR":  "/srv/jupyterhub/quiz_result",
-            "QUIZ_ADMIN_USER":  "eg2577",
+            "QUIZ_ADMIN_USER":  "eg2577,eric",
             "QUIZ_PASS_THRESHOLD": "0.8",
         },
         # Show this service as a link in the Hub navbar (JupyterHub 2+)
